@@ -4,7 +4,7 @@
     "description": "",
     "main": "main.js",
     "scripts": {
-        "test": "mocha --reporter spec --compilers ts:ts-node/register 'src/tests/FibonnaciRepository.spec.ts'",
+        "test": "mocha --reporter spec --compilers ts:ts-node/register 'src/tests/**/*.spec.ts'",
         "start": ""
     },
     "author": "Jesus Garcia",
