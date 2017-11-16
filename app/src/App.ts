@@ -12,5 +12,6 @@ export class App{
     
     public Start() : void{
         console.log("Application started");
+        console.log("Something else changed here");
     }
 }
