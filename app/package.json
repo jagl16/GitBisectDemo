@@ -1,0 +1,28 @@
+{
+    "name": "code-review-app",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "mocha --reporter spec --compilers ts:ts-node/register 'src/tests/FibonnaciRepository.spec.ts'",
+        "start": ""
+    },
+    "author": "Jesus Garcia",
+    "devDependencies": {
+        "@types/chai": "^4.0.4",
+        "@types/mocha": "^2.2.43",
+        "@types/node": "^6.0.46",
+        "chai": "^4.1.2",
+        "mocha": "^3.5.3",
+        "ts-node": "^3.2.0",
+        "typescript": "^2.5.3"
+    },
+    "dependencies": {
+        "@types/mocha": "^2.2.43",
+        "@types/node": "^6.0.46",
+        "@types/chai": "^4.0.4",
+        "chai": "^4.1.2",
+        "mocha": "^3.5.3",
+        "typescript": "^2.5.3"
+    }
+}
