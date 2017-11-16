@@ -7,6 +7,7 @@ const DI = SimpleDI.Instance;
 export class App{
     
     public Initialize(){
+        console.log("Registering all dependency injection classes");
         DI.register<IFibonacciRepository>("IFibonacciRepository",new FibonacciRepository());
     }
     
