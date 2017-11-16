@@ -11,7 +11,7 @@ export class FibonacciRepository implements IFibonacciRepository{
      * @param value fibbonaci number
      */
     calculate(num: number): number {
-        if(num <=1) return num;
+        if(num <=1) return 1;
         var a = 1, b = 0, temp;
         while (num >= 0){
             temp = a;
